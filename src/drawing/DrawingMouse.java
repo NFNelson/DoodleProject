@@ -33,11 +33,11 @@ public class DrawingMouse implements MouseListener, MouseMotionListener {
 
 	private double getPressure()
 	{
-		if( pm.pen.getKindType() != PKind.Type.CURSOR ) {
-			return pm.pen.getLevelValue(PLevel.Type.PRESSURE);
-		} else {
+		//if( pm.pen.getKindType() != PKind.Type.CURSOR ) {
+		//	return pm.pen.getLevelValue(PLevel.Type.PRESSURE);
+		//} else {
 			return 1.0;
-		}
+		//}
 	}
 		
 	public void mouseDragged(MouseEvent event) {
